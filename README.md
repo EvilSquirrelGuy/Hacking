@@ -1,24 +1,8 @@
 # Hacking
-## Password Stealing
-### Edge Passwords (windows credential manager) Windows only
-These resources are for java
-- https://github.com/dariusz-szczepaniak/java.jna.WindowsCredentialManager (library)
-- https://stackoverflow.com/questions/55233269/how-to-retrieve-username-and-password-from-windows-vault-using-java (question on stack overflow)
-- [ ] To Do: add python resources
+**IMPORTANT INFORMATION:** All information in this GitHub repository is strictly for educational purposes, and I will not be held responsible if you use it for any other purpose, if you do decide to put your newly acquired knowledge to good use, you do so at your own risk and expense. Its not my fault if you end up in prison lol.
 
-### Chrome Passwords
-#### Windows
-Stored in file `C:\Users\XXXXXX\AppData\Local\Google\Chrome\User Data\Default\Login Data`
-- https://www.nirsoft.net/utils/chromepass.html (tool for extracting passwords)
+I made this repository so I have an easy place to find everything to do with hacking/viruses and so i can educate people about what you should watch out for in code (primarily the first one tho).
 
-This can be swiped with all good programming languages, like Python, Java and C#
+All the Information can be found on the Wiki
 
-### Firefox Passwords
-This one is the hardest to hack
-Passwords are stored in directory `%appdata%\Mozilla\Firefox\Profiles\`, in files:
-- `key4.db`
-- `logins.json`
 
-## Token Logging
-### Minecraft Session Token
-Resets when Minecraft launcher is opened, so when victim closes the launcher the token is still valid (but when victim reopens launcher, it gets invalidated)
