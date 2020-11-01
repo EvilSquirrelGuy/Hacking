@@ -10,6 +10,7 @@ These resources are for java
 #### Windows
 Stored in file `C:\Users\XXXXXX\AppData\Local\Google\Chrome\User Data\Default\Login Data`
 - https://www.nirsoft.net/utils/chromepass.html (tool for extracting passwords)
+
 This can be swiped with all good programming languages, like Python, Java and C#
 
 ### Firefox Passwords
